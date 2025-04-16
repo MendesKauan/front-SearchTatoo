@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react"
-import { ListTatoo } from "@/components/header/searchComponents/listTatoo"
+import { ListTatoo } from "@/components/searchComponents/listTatoo"
 
 export default function search() {
     const [query, setQuery] = useState("")
